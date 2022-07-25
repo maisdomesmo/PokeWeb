@@ -1,0 +1,36 @@
+.container-about{
+    
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 40px;
+    
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.container-about h2{
+    margin-inline: 40px;
+}
+.info p.type {
+    display: none;
+}
+.info h4 {
+    margin: 10px;
+}
+.container-about #div{
+    width: 50px;
+}
+
+@media only screen and (max-width: 520px) {
+    .info{
+        justify-content: center;    
+    }
+}

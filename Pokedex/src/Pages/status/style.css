@@ -1,0 +1,63 @@
+.container-status .status-base,
+.container-status .defesa,
+.container-status {
+    
+    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #fff;
+    border-radius: 40px;
+}
+.container-status .div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container-status div h3{
+    width: 150px;
+    text-transform: capitalize;
+    
+}
+.container-status div h5{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 22px;
+    margin-left: 10px;
+    
+}
+/* .container-status div h5::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: ' ';
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    margin-left: 30px;
+} */
+.defesa span{
+    margin-top: 10px;
+    
+
+    
+}
+.defesa span div{
+    display: flex;
+    gap: 10px;
+    max-width: 310px;
+    flex-wrap: wrap;
+}
+.defesa span p {
+    text-align: center;
+    
+}
+

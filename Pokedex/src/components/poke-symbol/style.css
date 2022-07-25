@@ -1,0 +1,32 @@
+.symbol-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 54px;
+    width: 25px;
+}
+
+.symbol {
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    border-radius: 3px;
+}
+
+.symbol img {
+    transform: scale(0.8);
+    filter: brightness(100);
+}
+
+.value {
+    margin-inline: auto;
+    max-width: 10px;
+    max-height: 19px;
+    text-align: center;
+}

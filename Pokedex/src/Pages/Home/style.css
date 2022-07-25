@@ -1,0 +1,77 @@
+
+.container { 
+    background: no-repeat url(../../assets/images/background.svg);
+    background-position: 50% 0%;
+    width: 100vw;
+    background-color: #00ced1;
+    padding-bottom: 50px;
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container span.title {
+    background-color: hsla(210, 14%, 53%, 0.5);
+    width: fit-content;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container span.search-bar {
+    display: flex;
+    margin-inline: auto;
+    margin-top: 80px;
+    height: 30px;
+    align-items: center;  
+}
+.container span.search-bar input:focus{
+    box-shadow: #056466 0px 19px 38px, #056466 0px 15px 12px;
+    
+    
+}
+
+.container header button{
+    background: no-repeat url(../../assets/icons/search.svg);
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    position: absolute;
+    right: 25vw;
+    cursor: pointer;
+}
+
+.container header input {
+    width: 50vw;
+    height: 30px;
+   
+}
+
+.container main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    margin-left: 100px;
+}
+.pagina-inicial{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.pagina-inicial a{
+    text-decoration: none;
+    color: black;
+}
+.pagina-inicial a:hover{
+    color: blue;
+}

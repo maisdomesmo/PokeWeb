@@ -1,0 +1,135 @@
+
+body{
+    margin-left: 0px;  
+    margin-top: 0px;
+    width: 100vw;
+    
+}
+main {
+    width: 95vw;
+}
+
+.container-profile img.arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.container-profile nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9vw;
+    max-width: 100vw;
+}
+.container-profile nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    background: no-repeat right top url(../../assets/images/points.svg);
+    background-size: 200px 200px;
+}
+
+.container-profile.header {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-profile.header.profile{
+    display: flex;
+
+}
+
+#type{
+    filter: brightness(100);
+}
+#profile {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+   
+}
+#profile img#poke {
+    margin-top: 20px;
+    width: min(200px, 40vw);
+    height: min(200px, 40vw);
+    border-radius: 50px;
+    background: url(../../assets/images/selected.svg) center center no-repeat; 
+    background-size: 200px;
+}
+
+#profile span{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+}
+#profile span #div{
+    width: 100px;
+}
+
+#profile span h4{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(23, 23, 27, 0.6);
+}
+#profile span h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: bold;
+    margin-block: 0px;
+}
+#profile span div {
+    max-width: 85px;
+    height: 25px;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+
+.container-profile nav .wrapper {
+    background-size: 100px 100px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+.container-profile nav .wrapper.selected {
+    background: no-repeat  top center url(../../assets//images/selected.svg);
+}
+.container-profile nav .wrapper a {
+    margin-inline: auto;
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 500px){
+    .container-profile img.arrow {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+}

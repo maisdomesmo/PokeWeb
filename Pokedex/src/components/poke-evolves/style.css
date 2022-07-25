@@ -1,0 +1,28 @@
+.elvolves-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+
+.elvolves-container img.poke{
+    width: min(200px, 20vw);
+    height: min(200px, 20vw);
+    border-radius: 50px;
+    background: url(../../assets/images/selected.svg) center center no-repeat; 
+    background-size: 200px;
+    
+}
+.elvolves-container img.arrow-evolution {
+   transform: rotateY(180deg);
+   margin-left: 10vw;
+   
+}
+.elvolve-background.elvolve-background{
+    display: flex;
+    align-items: center;    
+}

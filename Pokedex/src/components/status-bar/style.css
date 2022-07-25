@@ -1,0 +1,50 @@
+:root{
+    --hp-value: 50;
+    --attack-value: 60;
+    --defense-value: 70;
+    --special-attack-value:80;
+    --special-defense-value:90;
+    --speed-value:100;
+}
+
+.hp{
+--progress : var(--hp-value)
+}
+.attack{
+    --progress : var(--attack-value)
+}
+.defense{
+    --progress : var(--defense-value)
+}
+.special-attack{
+    --progress : var(--special-attack-value)
+}
+.special-defense{
+    --progress : var(--special-defense-value)
+}
+.speed{
+    --progress : var(--speed-value)
+}
+
+
+.progress-bar{
+    height: 3px;
+    width: 100px;
+    padding: 1px;
+    background-color: hsla(0, 0%, 0%, 0.445);
+    margin-left: 30px;
+    display: flex;
+    border-radius: 5px;
+  }
+
+  .progress-bar::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: calc(var(--progress) * 1%);
+    background-color: red;
+    background-color: hsl( calc(var(--progress) * 1.2) ,100%, 50%);
+    transition: all 1s;
+  }

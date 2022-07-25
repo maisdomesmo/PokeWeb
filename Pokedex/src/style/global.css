@@ -1,0 +1,22 @@
+:root{
+    --type-bug: #8CB330;       --background-type-bug: #8BD674;   
+    --type-dark: #58575F;      --background-type-dark: #6F6E78; 
+    --type-dragon: #0F6AC0;    --background-type-dragon: #7383B9; 
+    --type-electric: #EED535;  --background-type-electric: #F2CB55; 
+    --type-fairy: #ED6EC7;     --background-type-fairy: #EBA8C3; 
+    --type-fire:#FD7D24;       --background-type-fire:#FFA756; 
+    --type-fighting: #D04164;  --background-type-fighting: #EB4971; 
+    --type-flying: #748FC9;    --background-type-flying: #83A2E3; 
+    --type-ghost: #556AAE;     --background-type-ghost: #8571BE; 
+    --type-grass: #62B957;     --background-type-grass: #8BBE8A; 
+    --type-ground: #DD7748;    --background-type-ground: #F78551; 
+    --type-ice: #61CEC0;       --background-type-ice: #91D8DF; 
+    --type-normal:#9DA0AA;     --background-type-normal:#B5B9C4; 
+    --type-poison:#A552CC;     --background-type-poison:#9F6E97; 
+    --type-psychic:#EA5D60;    --background-type-psychic:#FF6568; 
+    --type-rock:#BAAB82;       --background-type-rock:#D4C294; 
+    --type-steel:#417D9A;      --background-type-steel:#4C91B2; 
+    --type-water:#4A90DA;      --background-type-water:#58ABF6; 
+    
+    font-family: 'Open Sans', sans-serif;
+}
